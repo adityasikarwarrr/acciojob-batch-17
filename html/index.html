@@ -3,6 +3,15 @@
 <head>
     <title>Accio jobs</title>
 
+    <style>
+        table, th, td {
+            border: 1px solid black;
+            /* border-collapse: collapse; */
+            border-radius: 5px;
+            padding: 12px;
+            border-color: blue;
+        }
+    </style>
 </head>
 
 <body>
@@ -82,6 +91,7 @@
     <p>2 <sub>16</sub></p>
 
     <!-- table -->
+    <!-- https://www.w3schools.com/html/html_tables.asp -->
     <table>
         <tr>
             <th>Name</th>
@@ -97,7 +107,6 @@
             <td>Shyam</td>
             <td>2</td>
             <td>5</td>
-            <td>Chandigarh</td>
         </tr>
     </table>
 
@@ -116,6 +125,107 @@
 
     <!-- Image -->
     <img src="https://media3.giphy.com/media/onPMdPD9wI4rWA6KaT/giphy.gif?cid=ecf05e47d1d93ddb131e122b95884c8030896b727a11448d&rid=giphy.gif&ct=g">
+
+    <br> <br> <br> <br>
+
+    <!-- Forms -->
+    <!-- https://www.w3schools.com/html/html_forms.asp -->
+    <form action="" method="" target="_blank" autocomplete="on" novalidate>
+        <fieldset>
+            <legend>Contact Me: </legend>
+            <label for="firstName">First Name: </label>
+            <input type="text" name="firstName" value="" placeholder="First Name" required>
+            <br>
+    
+            <label for="lastName">Last Name: </label>
+            <input type="text" name="lastName" value="" placeholder="Last Name" required>
+            <br>
+    
+            <label for="email">Email: </label>
+            <input type="email" name="lastName" placeholder="Email">
+            <br>
+    
+            <label for="gender">Gender: </label>
+            <select name="gender" id="gender">
+                <option value="male" selected>Male</option>
+                <option value="female">Female</option>
+                <option value="others">Others</option>
+            </select>
+            <br>
+    
+            <label for="questions">Questions to ask: </label>
+            <textarea name="questions" id="questions" cols="30" rows="2"></textarea>
+            <br>
+
+            <label for="occupation">occupation</label>
+            <input type="text" list="pro" name="occupation">
+            <datalist id="pro">
+                <option value="Engineer">
+                <option value="Doctor">
+                <option value="CA">
+                <option value="Lawyer">
+                <option value="Other">
+            </datalist>
+            <br>
+
+            <!-- 
+                INPUT TYPES (reference - w3schools)
+
+                <input type="button">
+                <input type="checkbox">
+                <input type="color">
+                <input type="date">
+                <input type="datetime-local">
+                <input type="email">
+                <input type="file">
+                <input type="hidden">
+                <input type="image">
+                <input type="month">
+                <input type="number">
+                <input type="password">
+                <input type="radio">
+                <input type="range">
+                <input type="reset">
+                <input type="search">
+                <input type="submit">
+                <input type="tel">
+                <input type="text">
+                <input type="time">
+                <input type="url">
+                <input type="week">
+            -->
+            
+            <input type="file">
+            <input type="date">
+            <input type="range">
+            <input type="color">
+            <input type="password">
+
+
+            <br>
+            <input type="radio" id="frontend" name="code" value="frontend">
+            <label for="frontend">Frontend</label>
+            <input type="radio" id="backend" name="code" value="backend">
+            <label for="backend">Backend</label>
+            <input type="radio" id="fullstack" name="code" value="fullstack">
+            <label for="fullstack">Full Stack</label>
+            <br> <br>
+
+            <input type="checkbox" id="frontend" name="code" value="frontend">
+            <label for="frontend">Frontend</label>
+            <input type="checkbox" id="backend" name="code" value="backend">
+            <label for="backend">Backend</label>
+            <input type="checkbox" id="fullstack" name="code" value="fullstack">
+            <label for="fullstack">Full Stack</label>
+            <br><br>
+
+            
+            <br>
+            <button type="reset" onclick="alert('hey alert')">Alert will open</button>
+            <input type="submit" value="Submit">
+
+        </fieldset>
+    </form>
     
 </body>
 
