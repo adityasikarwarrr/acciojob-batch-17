@@ -5,11 +5,27 @@
 
     <style>
         table, th, td {
-            border: 1px solid black;
+            /* border: 1px solid black; */
             /* border-collapse: collapse; */
-            border-radius: 5px;
+            /* border-radius: 5px;
             padding: 12px;
-            border-color: blue;
+            border-color: blue; */
+        }
+
+        table, th, td {
+            border: 1px solid black;
+            border-radius: 4px;
+            border-color: red;
+            border-collapse: collapse;
+            padding: 4px;
+            background-color: aqua;
+        }
+    </style>
+
+
+    <style>
+        h1{
+            color: pink;
         }
     </style>
 </head>
@@ -68,7 +84,7 @@
         - Ordered List (1,2,3)
     -->
 
-    <ul type="square">
+    <lu type="square">
         <li>Ramesh</li>
         <li>Om</li>
         <li>Shyam</li>
@@ -92,7 +108,7 @@
 
     <!-- table -->
     <!-- https://www.w3schools.com/html/html_tables.asp -->
-    <table>
+    <table >
         <tr>
             <th>Name</th>
             <th>Class</th>
@@ -123,17 +139,61 @@
     <a href="tel:123456">Phone</a>
     <a href="mailto:omraj">MAIL</a>
 
+
     <!-- Image -->
     <img src="https://media3.giphy.com/media/onPMdPD9wI4rWA6KaT/giphy.gif?cid=ecf05e47d1d93ddb131e122b95884c8030896b727a11448d&rid=giphy.gif&ct=g">
 
     <br> <br> <br> <br>
+
+    <form action="" autocomplete="on">
+        <fieldset>
+            <legend align="center">Testing</legend>
+            <!-- Input tag -->
+            <label for="">First Name: </label>
+            <input type="text" placeholder="First Name" required>
+
+            <label for="">Email: </label>
+            <input type="email" required>
+
+            <br>
+
+            <label for="">Phone</label>
+            <select>
+                <option value="IPhone">IPhone</option>
+                <option value="Android">Android</option>
+                <option value="Window">Windows</option>
+            </select>
+
+            <textarea cols="20" rows="3"></textarea>
+
+            <input type="text" list="pro" name="occupation">
+            <datalist id="pro">
+                <option value="Engineer">
+                <option value="Doctor">
+                <option value="CA">
+                <option value="Lawyer">
+                <option value="Other">
+            </datalist>
+
+            <br>
+
+            <input type="checkbox" id="frontend" name="code" value="frontend">
+            <label for="frontend">Frontend</label>
+
+            <!-- Submittting Form -->
+            <br>
+            <button type="submit">Submit</button>
+
+            <button onclick="alert('got alert')">Give an alert</button>
+        </fieldset>
+    </form>
 
     <!-- Forms -->
     <!-- https://www.w3schools.com/html/html_forms.asp -->
     <form action="" method="" target="_blank" autocomplete="on" novalidate>
         <fieldset>
             <legend>Contact Me: </legend>
-            <label for="firstName">First Name: </label>
+            <label for="firstName">First Name: <sup style="color: red;">*</sup> </label>
             <input type="text" name="firstName" value="" placeholder="First Name" required>
             <br>
     
