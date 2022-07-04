@@ -1,0 +1,51 @@
+/* *{
+    background-color: aquamarine;
+} */
+
+/* 
+    TYPE OF SELECTORS
+    - TAG
+    - ID
+    - CLASS
+*/
+/* Tag Selectors */
+body{
+    /* background-color: brown; */
+    color: red;
+}
+h1 {
+    color: cyan;
+}
+
+/* p{
+    background-color: blueviolet;
+    color: white;
+} */
+header{
+    font-size: large;
+}
+/* body{
+    color: white;
+} */
+
+/* Parent Child Selector */
+div header p {
+    background-color: white;
+    color: brown;
+}
+div h1 {
+    color: red;
+}
+
+/* ID SELECTOR */
+#om {
+    color: blue;
+}
+
+/* CLASS SELECTOR */
+.good {
+    color: darkgreen;
+}
+.good1{
+    color: pink;
+}
