@@ -42,10 +42,21 @@ div h1 {
     color: blue;
 }
 
+.goodevery div footer h1 #abc {
+
+}
+
 /* CLASS SELECTOR */
 .good {
     color: darkgreen;
 }
 .good1{
+    color: pink;
+}
+
+div{
+    color: pink;
+}
+p, div, header{
     color: pink;
 }
