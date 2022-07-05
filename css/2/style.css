@@ -1,0 +1,86 @@
+/* CSS Specificity */
+/* .monitor{
+    border: 1px solid ;
+}
+.best{
+    color: yellow;
+}
+#fav{
+    background-color: green;
+}
+p{
+    color: red;
+} */
+
+/* CSS combinator */
+/* decendent */
+/* #division header h1  {
+    color: blue;
+} */
+/* Adjacent child selector */
+/* First P adjacenet to header is going to get this styling */
+/* header + p {
+    color: red;
+} */
+/* General sibling selector */
+/* header ~ p {
+    color: green;
+} */
+
+/* PSEUDO CLASSES */
+/* unvisited */
+/* a:link {
+    color: pink;
+} */
+/* visited */
+/* a:visited {
+    color: aqua;
+} */
+/* hover */
+/* a:hover {
+    color: green;
+} */
+/* selected */
+/* used in last */
+/* a:active {
+    color: red;
+} */
+/* first-child */
+/* p:first-child{
+    color: red;
+}
+p:last-child{
+    color: green;
+}
+p:nth-child(odd){
+    color: blue;
+}
+p:nth-child(even){
+    color: green;
+}
+p:nth-child(5){
+    color: green;
+} */
+
+/* PSEUDO ELEMENTS */
+/* p::first-line {
+    color: red;
+    background-color: green;
+}
+p::first-letter{
+    font-size: 60px;
+}
+p::before {
+    content: "just before";
+}
+p::after {
+    content: "just after";
+}
+p::selection {
+    background: aqua;
+    color: green;
+}
+li::marker {
+    color: blue;
+} */
+
