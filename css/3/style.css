@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+}
+/* BOX MODEL */
+/* .container{
+    color: red;
+    margin: 15px;
+    border: 3px solid black;
+    padding: 15px;
+    background-color: aqua;
+} */
+
+/* .outer {
+    color: red;
+    background-color: aqua;
+    height: 50px;
+    width: 100px;
+    text-align: center;
+    display: inline-block;
+    overflow-y: hidden;
+    
+}
+span{
+    color: green;
+    background-color: blue;
+} */
+
+/* .container-1{
+    background-color: green;
+    height: 200px;
+    width: 50%;
+}
+.container-2 {
+    margin: 30px;
+    background-color: aqua;
+    width: 120vw;
+} */
+
+/* body{
+    display: flex;
+}
+
+.container-3{
+    color: green;
+    margin: 5px;
+    border-right: 2px solid black;
+} */
+
+div{
+    text-align: center;
+}
