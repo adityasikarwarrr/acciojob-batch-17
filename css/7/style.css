@@ -1,0 +1,20 @@
+body{
+    margin: 0;
+}
+.relative{
+    text-align: center;
+    position: relative;
+    /* display: inline; */
+    font-size: 3rem;
+}
+.absolute{
+    position: absolute;
+    top:50%;
+    left:60%;
+    transform:translate(50%,50);
+    /* color: white; */
+    z-index: -3;
+}
+.absolute:hover{
+    color: blue;
+}
